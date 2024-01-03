@@ -1,0 +1,296 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  font-size: 20px;
+}
+body{
+  overflow: hidden;
+  display: grid;
+  background-color: #F0F0F2;
+}
+header{
+  background-color: #A8B48E;
+  height: 133px;
+}
+h1{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.8rem;
+  margin: 40px 17px 20px 17px;
+}
+p{
+  line-height: 1.7rem;
+  margin: 0 17px 20px 17px;
+}
+.bottom{
+  height: 2.5rem;
+  width: 8rem;
+  background-color: #768C45;
+  color: white;
+  text-align: center;
+  padding: 7px;
+  border-radius: 9px;
+  border: solid #542A2A 1px;
+  box-shadow: 1px 3px 5px #8f8f8f;
+}
+.bottom:hover{
+  cursor: pointer;
+  animation: bottomsColor 1s ease infinite alternate;
+}
+@keyframes bottomsColor{
+  from{
+    background-color: #768C45;
+  }
+  to{
+    background-color: #4d5f26;
+  }
+}
+.carousel{
+  margin: 1em;
+  display: flex;
+  gap: 4px;
+  justify-content: center;
+
+}
+.dot1{
+  animation: chanceColor1 30s linear infinite;
+  border-radius: 50px;
+  border: solid black 0.5px;
+}
+.dot2{
+  animation: chanceColor2 30s linear infinite;
+  border-radius: 50px;
+  border: solid black 0.5px;
+}
+.dot3{
+  animation: chanceColor3 30s linear infinite;
+  border-radius: 50px;
+  border: solid black 0.5px;
+}
+.dot4{
+  animation: chanceColor4 30s linear infinite;
+  border-radius: 50px;
+  border: solid black 0.5px;
+}
+.dot5{
+  animation: chanceColor5 30s linear infinite;
+  border-radius: 50px;
+  border: solid black 0.5px;
+}
+@keyframes chanceColor1{
+  0%{
+    background-color: rgb(0, 0, 0);
+    width: 12px;
+    height: 12px;
+  }
+  20%{
+    background-color: rgb(255, 255, 255);
+    width: 10px;
+    height: 10px;
+  }
+  40%{
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+  }
+  60%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+  80%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+  100%{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+  }
+}
+@keyframes chanceColor2{
+  0%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  20%{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+  }
+  40%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  60%{
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+  }
+  80%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+  100%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+}
+@keyframes chanceColor3{
+  0%{
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+  }
+  20%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  40%{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+  }
+  60%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  80%, 100%{
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+  }
+}
+@keyframes chanceColor4{
+  0%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+  20%{
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+  }
+  40%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  60%{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+  }
+  80%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  100%{
+    background-color: white;
+    width: 6px;
+    height: 6px;
+  }
+}
+@keyframes chanceColor5{
+  0%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+  20%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+  40%{
+    background-color: transparent;
+    width: 8px;
+    height: 8px;
+  }
+  60%{
+    background-color: transparent;
+    width: 10px;
+    height: 10px;
+  }
+  80%{
+    background-color: black;
+    width: 12px;
+    height: 12px;
+  }
+  100%{
+    background-color: transparent;
+    width: 6px;
+    height: 6px;
+  }
+}
+.b{
+  overflow: hidden;
+}
+.carousel-container {
+  display: flex;
+  animation: carousel 30s infinite ease-in-out; /* Juster varighed efter behov */
+}
+.carousel-slide {
+  min-width: 99%;
+  margin: 0 0.5%;
+}
+.carousel-slide img {
+  width: 100%;
+  height: auto;
+}
+@keyframes carousel {
+  0% {
+      transform: translateX(0%);
+  }
+  20% {
+      transform: translateX(-100%);
+  }
+  40% {
+      transform: translateX(-200%);
+  }
+  60% {
+      transform: translateX(-300%);
+  }
+  80% {
+      transform: translateX(-400%);
+  }
+  100% {
+      transform: translateX(0%);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+
+  .b{
+    max-width: 45%;
+    margin: 3rem 0 0 1rem;
+    border-radius: 1rem 1rem 0 0;
+  }
+  .carousel{
+    justify-content: left;
+    margin-left: 20%;
+  }
+  .intro{
+    position: fixed;
+    right: 1px;
+    top: 14%;
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  html{
+    font-size: 23px;
+  }
+}
