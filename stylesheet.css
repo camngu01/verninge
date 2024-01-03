@@ -37,14 +37,17 @@ p{
 }
 .bottom:hover{
   cursor: pointer;
-  animation: bottomsColor 1s ease infinite alternate;
+  animation: bottomsColor 100s ease infinite alternate;
 }
 @keyframes bottomsColor{
-  from{
+  0%{
     background-color: #768C45;
   }
-  to{
+  1%{
     background-color: #4d5f26;
+  }
+  100%{
+    background-color: #768C45;
   }
 }
 .carousel{
@@ -234,7 +237,7 @@ p{
     height: 6px;
   }
 }
-.b{
+.carousel-frame{
   overflow: hidden;
 }
 .carousel-container {
@@ -278,13 +281,12 @@ p{
 }
 .reklame-container{
   display: flex;
-  animation: reklame 30s infinite;
+  animation: reklame 10s infinite linear;
 }
 .reklame-slide {
   min-width: 40%;
   margin: 0 0.5%;
   justify-self: center;
-
 }
 .reklame-slide img{
   width: 100%;
@@ -295,7 +297,7 @@ p{
       transform: translateX(0%);
   }
   80% {
-      transform: translateX(-80%);
+      transform: translateX(-95%);
   }
   100% {
       transform: translateX(0);
@@ -303,8 +305,7 @@ p{
 }
 
 @media only screen and (min-width: 800px) {
-
-  .b{
+  .carousel-frame{
     max-width: 45%;
     margin: 3rem 0 0 1rem;
     border-radius: 1rem 1rem 0 0;
@@ -314,7 +315,7 @@ p{
     margin-left: 20%;
   }
   .intro{
-    position: fixed;
+    position: absolute;
     right: 1px;
     top: 14%;
     width: 50%;
@@ -322,8 +323,15 @@ p{
 }
 
 @media only screen and (min-width: 1200px) {
-
   html{
     font-size: 23px;
+  }
+  .intro{
+    right: 5%;
+    width: 40%;
+  }
+  .reklame-slide {
+    min-width: 20%;
+    margin-left: 2rem;
   }
 }
