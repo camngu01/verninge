@@ -6,7 +6,6 @@ html{
   font-size: 20px;
 }
 body{
-  overflow: hidden;
   display: grid;
   background-color: #F0F0F2;
 }
@@ -268,6 +267,38 @@ p{
   }
   100% {
       transform: translateX(0%);
+  }
+}
+
+/*Reklamer nederst på siden*/
+.reklame-frame{
+  max-width: 100%;
+  margin: 5rem 1rem;
+  overflow: hidden;
+}
+.reklame-container{
+  display: flex;
+  animation: reklame 30s infinite;
+}
+.reklame-slide {
+  min-width: 40%;
+  margin: 0 0.5%;
+  justify-self: center;
+
+}
+.reklame-slide img{
+  width: 100%;
+  height: auto;
+}
+@keyframes reklame {
+  0% {
+      transform: translateX(0%);
+  }
+  80% {
+      transform: translateX(-80%);
+  }
+  100% {
+      transform: translateX(0);
   }
 }
 
