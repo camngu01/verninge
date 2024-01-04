@@ -15,6 +15,18 @@ h1{
   font-size: 1.8rem;
   margin: 40px 17px 20px 17px;
 }
+
+h2{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.6rem;
+  margin: 40px 17px 20px 17px;
+}
+
+h3{
+  font-family: 'Josefin Slab', serif;
+  font-size: 1.4rem;
+  margin: 40px 17px 20px 17px;
+}
 p{
   line-height: 1.7rem;
   margin: 0 17px 20px 17px;
@@ -293,6 +305,37 @@ header a {
   100% {
       transform: translateX(0%);
   }
+}
+
+/*Foreninger*/ 
+
+.gym img{
+  width: 80%;
+  border-radius: 10px;
+}
+.if img{
+    width: 80%;
+    border-radius: 10px; 
+}
+.gymnastik {
+  color: #A8B48E;
+    text-decoration: none; 
+    line-height: 1.7rem;
+  margin: 0 17px 20px 17px;
+}
+
+.facebook-if {
+  color: #A8B48E;
+    text-decoration: none; 
+    line-height: 1.7rem;
+  margin: 0 17px 20px 17px;
+}
+
+.hjemmeside-if {
+  color: #A8B48E;
+    text-decoration: none; 
+    line-height: 1.7rem;
+  margin: 0 17px 20px 17px;
 }
 
 /*børneinstitution*/
