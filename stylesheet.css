@@ -309,32 +309,32 @@ header a {
 
 /*Foreninger*/ 
 
-.gym img{
+.gym{
   width: 80%;
   border-radius: 10px;
 }
-.if img{
+.if{
     width: 80%;
     border-radius: 10px; 
 }
 .gymnastik {
   color: #A8B48E;
-    text-decoration: none; 
-    line-height: 1.7rem;
+  text-decoration: none; 
+  line-height: 1.7rem;
   margin: 0 17px 20px 17px;
 }
 
 .facebook-if {
   color: #A8B48E;
-    text-decoration: none; 
-    line-height: 1.7rem;
+  text-decoration: none; 
+  line-height: 1.7rem;
   margin: 0 17px 20px 17px;
 }
 
 .hjemmeside-if {
   color: #A8B48E;
-    text-decoration: none; 
-    line-height: 1.7rem;
+  text-decoration: none; 
+  line-height: 1.7rem;
   margin: 0 17px 20px 17px;
 }
 
@@ -433,6 +433,7 @@ header a {
   }
   .skole img {
     width: 65%;
+    height: auto;
   }
   .tekst {
     margin-top: 5%;
