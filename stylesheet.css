@@ -377,6 +377,37 @@ header a {
 }
 
 /*Borgernes fortælling*/
+.borgertekst {
+  text-align: center;
+}
+.fortælling {
+  gap: 50px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.rasmus img {
+  width: 10rem;
+  border-radius: 50%;
+  margin-left: 5%;
+}
+.rasmus h4 {
+  text-align: center;
+  padding: 10px 0;
+}
+.rasmus p {
+  margin: 0 30px;
+}
+
+.rikke img {
+  width: 10rem;
+  border-radius: 50%;
+}
+
+.gitte img {
+  width: 10rem;
+  border-radius: 50%;
+}
 
 
 
@@ -419,6 +450,33 @@ header a {
     gap: 5rem;
     list-style-type: none;
   }
+  nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    position: relative;
+  }
+  
+  nav a:hover::after {
+    content: '';
+    display: block;
+    height: 2px;
+    width: 100%;
+    background-color: #F1F1EA; /* Farven på den farvede streg */
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+  }
+    
   /*intro*/
   .carousel-frame{
     max-width: 45%;
@@ -458,6 +516,15 @@ header a {
     font-size: 1rem;
     margin-top: 30px;
   }
+  /*Borgernes fortælling*/
+  .fortælling {
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+  }
+
+
+
   
   
 }
@@ -467,6 +534,7 @@ header a {
   html{
     font-size: 23px;
   }
+ 
 
 
 }
