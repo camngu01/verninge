@@ -376,6 +376,10 @@ header a {
   align-self: center;
 }
 
+/*Borgernes fortælling*/
+
+
+
 /*Reklamer*/
 .reklame-frame{
   overflow: hidden;
@@ -463,5 +467,6 @@ header a {
   html{
     font-size: 23px;
   }
+
 
 }
