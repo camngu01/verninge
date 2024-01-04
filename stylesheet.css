@@ -13,23 +13,23 @@ body{
 h1{
   font-family: 'Josefin Slab', serif;
   font-size: 1.8rem;
-  margin: 40px 17px 20px 17px;
+  margin: 40px 0px 20px 0px;
 }
 
 h2{
   font-family: 'Josefin Slab', serif;
   font-size: 1.6rem;
-  margin: 40px 17px 20px 17px;
+  margin: 40px 0px 20px 0px;
 }
 
 h3{
   font-family: 'Josefin Slab', serif;
   font-size: 1.4rem;
-  margin: 40px 17px 20px 17px;
+  margin: 40px 0px 20px 0px;
 }
 p{
   line-height: 1.7rem;
-  margin: 0 17px 20px 17px;
+  margin: 0 0px 20px 0px;
 }
 
 /*Header*/
@@ -61,6 +61,9 @@ header a {
 
 
 /*slider billeder*/
+.intro{
+  margin: 1.5em;
+}
 .bottom{
   height: 2.5rem;
   width: 8rem;
@@ -308,19 +311,24 @@ header a {
 }
 
 /*Foreninger*/ 
-
+.foreninger {
+  margin: 1.5em;
+}
 .gym {
   display: grid;
-    place-items: center;
-  width: 80%;
+  place-items: center;
+  width: 100%;
   border-radius: 10px;
+  margin-bottom: 1em;
+  
 }
 
 .if {
   display: grid;
-    place-items: center;
-    width: 80%;
-    border-radius: 10px; 
+  place-items: center;
+  width: 100%;
+  border-radius: 10px; 
+  margin-bottom: 1em;
 }
 .gymnastik {
   color: #A8B48E;
@@ -377,6 +385,7 @@ header a {
 }
 
 /*Borgernes fortælling*/
+<<<<<<< HEAD
 .borgertekst {
   text-align: center;
 }
@@ -409,6 +418,23 @@ header a {
   border-radius: 50%;
 }
 
+=======
+.borgerne-frame{
+  align-items: center;
+}
+.fortælling{
+  display: flex;
+}
+.rasmus img {
+  width: 80%;
+}
+.rikke img {
+  width: 80%;
+}
+.gitte img {
+  width: 80%;
+}
+>>>>>>> e96b44688651170a44e2f469962d548b59c5c5df
 
 
 /*Reklamer*/
