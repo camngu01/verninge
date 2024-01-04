@@ -303,6 +303,30 @@ header a {
 .skole img{
   width: 100%;
 }
+.skole h3 {
+  padding: 20px;
+  margin: 20px;
+  font-size: 1.6rem;
+}
+.skole p {
+  padding: 20px;
+  margin: 0 20px 20px 20px;
+}
+.tekst {
+  display: flex;
+  flex-direction: column;
+}
+#knap { /*TEKST SKAL VÆRE I CENTER*/
+  background-color: #F1F1EA;
+  color: #768C45;
+  height: 2.5rem;
+  width: 9rem;
+  text-align: center;
+  border-radius: 9px;
+  border: solid #542A2A 1px;
+  box-shadow: 1px 3px 5px #8f8f8f;
+  align-self: center;
+}
 
 /*Reklamer*/
 .reklame-frame{
@@ -359,6 +383,30 @@ header a {
     top: 14%;
     width: 50%;
   }
+
+  /*børneinstitution*/
+  .skole {
+    display:flex ;
+  }
+  .skole img {
+    width: 65%;
+  }
+  .tekst {
+    margin-top: 5%;
+    padding: 20px;
+  }
+  .tekst h3 {
+    font-size: 1.7rem;
+  }
+  .tekst p {
+    font-size: 30px;
+  }
+  #knap {
+    font-size: 1rem;
+    margin-top: 30px;
+  }
+  
+  
 }
 
 @media only screen and (min-width: 1200px) {
