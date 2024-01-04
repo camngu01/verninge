@@ -9,6 +9,9 @@ body{
   display: grid;
   background-color: #F0F0F2;
 }
+main{
+  display: grid;
+}
 
 h1{
   font-family: 'Josefin Slab', serif;
@@ -385,7 +388,6 @@ header a {
 }
 
 /*Borgernes fortælling*/
-<<<<<<< HEAD
 .borgertekst {
   text-align: center;
 }
@@ -417,25 +419,6 @@ header a {
   width: 10rem;
   border-radius: 50%;
 }
-
-=======
-.borgerne-frame{
-  align-items: center;
-}
-.fortælling{
-  display: flex;
-}
-.rasmus img {
-  width: 80%;
-}
-.rikke img {
-  width: 80%;
-}
-.gitte img {
-  width: 80%;
-}
->>>>>>> e96b44688651170a44e2f469962d548b59c5c5df
-
 
 /*Reklamer*/
 .reklame-frame{
@@ -585,6 +568,7 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
+<<<<<<< HEAD
   /*footer*/
   footer {
     display: grid;
@@ -612,12 +596,14 @@ footer {
   }
 }
 
+=======
+  /*Reklamer*/
+  .reklame-frame{
+    width: 100%;
+  }
+>>>>>>> 22f79b421df70544f2711bd8a327b7800e8d476f
 @media only screen and (min-width: 1200px) {
-
   html{
     font-size: 23px;
   }
- 
-
-
-}
+  }
