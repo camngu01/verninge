@@ -6,7 +6,6 @@ html{
   font-size: 20px;
 }
 body{
-  overflow: hidden;
   display: grid;
   background-color: #F0F0F2;
 }
@@ -260,7 +259,7 @@ header a {
     height: 6px;
   }
 }
-.b{
+.carousel-frame{
   overflow: hidden;
 }
 .carousel-container {
@@ -301,7 +300,37 @@ header a {
   background-color: #a8b48e;
   color: white;
 }
+.skole img{
+  width: 100%;
+}
 
+/*Reklamer*/
+.reklame-frame{
+  overflow: hidden;
+}
+.reklame-container{
+  display: flex;
+  animation: reklame 30s infinite linear;
+}
+.reklame-slide{
+  min-width: 25%;
+  margin: 0 0.5%;
+}
+.reklame-slide img{
+  width: 100%;
+  height: auto;
+}
+@keyframes reklame {
+  0% {
+      transform: translateX(0%);
+  }
+  80%{
+      transform: translateX(-100%);
+  }
+  100%{
+      transform: translateX(0%);
+  }
+}
 
 @media only screen and (min-width: 800px) {
 
@@ -314,8 +343,8 @@ header a {
     gap: 5rem;
     list-style-type: none;
   }
-  /**/
-  .b{
+  /*intro*/
+  .carousel-frame{
     max-width: 45%;
     margin: 3rem 0 0 1rem;
     border-radius: 1rem 1rem 0 0;
@@ -325,7 +354,7 @@ header a {
     margin-left: 20%;
   }
   .intro{
-    position: fixed;
+    position: absolute;
     right: 1px;
     top: 14%;
     width: 50%;
