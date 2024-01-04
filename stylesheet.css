@@ -309,11 +309,11 @@ header a {
 
 /*Foreninger*/ 
 
-.gym img{
+.gym {
   width: 80%;
   border-radius: 10px;
 }
-.if img{
+.if {
     width: 80%;
     border-radius: 10px; 
 }
