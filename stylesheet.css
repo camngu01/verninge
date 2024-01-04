@@ -309,19 +309,16 @@ header a {
 
 /*Foreninger*/ 
 
-<<<<<<< HEAD
 .gym {
+  display: grid;
+    place-items: center;
   width: 80%;
   border-radius: 10px;
 }
+
 .if {
-=======
-.gym{
-  width: 80%;
-  border-radius: 10px;
-}
-.if{
->>>>>>> 6d4da67298b1ecc4fc81a46d6e3fa3ecd7d68d2a
+  display: grid;
+    place-items: center;
     width: 80%;
     border-radius: 10px; 
 }
