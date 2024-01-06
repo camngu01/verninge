@@ -46,9 +46,10 @@ header {
   padding: 0 28px;
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 header img {
-  height: 4rem;
+  height: 4.5rem;
 }
 .fa-bars {
   color: white;
@@ -403,7 +404,6 @@ header a {
   margin-left: 5%;
 }
 .rasmus h4 {
-  text-align: center;
   padding: 10px 0;
 }
 .rasmus p {
@@ -485,11 +485,10 @@ footer {
   gap: 20px;
   align-items: baseline;
 }
-@media only screen and (min-width: 800px) {
-
+@media only screen and (min-width: 950px) {
   /*header*/
   .fa-bars {
-    display: none; /*DEN VIL IKKE FJERNES*/
+    display: none; /*VIL IKKE VIRKE*/
   }
   header ul {
     display: flex;
@@ -501,11 +500,9 @@ footer {
     display: flex;
     padding: 0;
   }
-  
   nav li {
     margin-right: 20px;
   }
-  
   nav a {
     text-decoration: none;
     color: #fff;
@@ -537,7 +534,7 @@ footer {
     position: absolute;
     right: 1px;
     top: 14%;
-    width: 50%;
+    width: 45%;
   }
 
   /*børneinstitution*/
@@ -568,7 +565,6 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
-<<<<<<< HEAD
   /*footer*/
   footer {
     display: grid;
@@ -596,12 +592,6 @@ footer {
   }
 }
 
-=======
-  /*Reklamer*/
-  .reklame-frame{
-    width: 100%;
-  }
->>>>>>> 22f79b421df70544f2711bd8a327b7800e8d476f
 @media only screen and (min-width: 1200px) {
   html{
     font-size: 23px;
