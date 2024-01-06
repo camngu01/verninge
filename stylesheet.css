@@ -380,12 +380,12 @@ header a {
   background-color: #F1F1EA;
   color: #768C45;
   height: 2.5rem;
-  width: 9rem;
+  width: 8rem;
   text-align: center;
+  padding: 7px;
   border-radius: 9px;
   border: solid #542A2A 1px;
   box-shadow: 1px 3px 5px #8f8f8f;
-  align-self: center;
 }
 
 /*Borgernes fortælling*/
