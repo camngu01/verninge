@@ -494,6 +494,115 @@ header a {
       transform: translateX(0%);
   }
 }
+/*Naturområder*/
+
+  /*Verninge mose*/
+  .mose {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+
+  /*udkigspunkt*/
+  .udsigt {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  }
+
+  /*Rute til verninge mose*/
+  .kort {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+  .kort h3 {
+    align-self: start;
+  }
+  .kort img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .icon img {
+    width: 30px;
+    margin: 0 21px;
+    margin-left: 0;
+  }
+  .park {
+    display: flex;
+    align-items: baseline;
+    margin-top: 5%;
+  }
+  .madhus {
+    display: flex;
+    align-items: baseline;
+  }
+  .udkig {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute img {
+    width: 7%;
+    margin-right: 19px;
+  }
+  
+  /*Åsemosen*/
+  .aasemosen {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+  /*Rute til åsemose*/
+  .kort {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+  .kort h3 {
+    align-self: start;
+  }
+  .kort img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .icon img {
+    width: 30px;
+    margin: 0 21px;
+    margin-left: 0;
+  }
+  .park {
+    display: flex;
+    align-items: baseline;
+    margin-top: 5%;
+  }
+  .shelter {
+    display: flex;
+    align-items: baseline;
+  }
+  .udkig {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute img {
+    width: 7%;
+    margin-right: 19px;
+  }
 
 /*footer*/
 footer {
@@ -613,6 +722,20 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
+  /*naturåmråder*/
+
+  /*rute til verninge mose*/
+  .kort h3 {
+    align-self: center;
+
+  }
+  .kort img {
+    width: 50%;
+  }
+  .icon img {
+    width: 30px;
+  }
+
   /*footer*/
   footer {
     display: grid;
@@ -646,112 +769,4 @@ footer {
   }
   }
 
-  /*Naturområder*/
-
-  /*Verninge mose*/
-  .mose {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
-  /*udkigspunkt*/
-  .udsigt {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  }
-
-  /*Rute til verninge mose*/
-  .kort {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    align-items: center;
-  }
-  .kort h3 {
-    align-self: start;
-  }
-  .kort img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .icon img {
-    width: 30px;
-    margin: 0 21px;
-    margin-left: 0;
-  }
-  .park {
-    display: flex;
-    align-items: baseline;
-    margin-top: 5%;
-  }
-  .madhus {
-    display: flex;
-    align-items: baseline;
-  }
-  .udkig {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute img {
-    width: 7%;
-    margin-right: 19px;
-  }
   
-  /*Åsemosen*/
-  .aasemosen {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-  /*Rute til åsemose*/
-  .kort {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    align-items: center;
-  }
-  .kort h3 {
-    align-self: start;
-  }
-  .kort img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .icon img {
-    width: 30px;
-    margin: 0 21px;
-    margin-left: 0;
-  }
-  .park {
-    display: flex;
-    align-items: baseline;
-    margin-top: 5%;
-  }
-  .shelter {
-    display: flex;
-    align-items: baseline;
-  }
-  .udkig {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute img {
-    width: 7%;
-    margin-right: 19px;
-  }
