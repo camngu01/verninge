@@ -8,6 +8,7 @@ html{
 body{
   display: grid;
   background-color: #F0F0F2;
+  font-family: 'Karla', sans-serif;
 }
 main{
   display: grid;
