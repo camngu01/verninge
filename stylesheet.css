@@ -69,28 +69,34 @@ header a {
   margin: 1.5em;
 }
 .bottom{
-  height: 2.5rem;
-  width: 8rem;
   background-color: #768C45;
   color: white;
-  text-align: center;
-  padding: 7px;
+  padding: 13px 40px;
   border-radius: 9px;
   border: solid #542A2A 1px;
   box-shadow: 1px 3px 5px #8f8f8f;
+  display: inline;
+}
+.bottom-frame{
+  text-align: center;
+  padding-bottom: 1rem;
 }
 .bottom:hover{
   cursor: pointer;
-  animation: bottomsColor 1s ease infinite alternate;
+  animation: bottomsColor 100s ease infinite alternate;
 }
 @keyframes bottomsColor{
-  from{
+  0%{
     background-color: #768C45;
   }
-  to{
+  1%{
     background-color: #4d5f26;
   }
+  100%{
+    background-color: #768C45;
+  }
 }
+
 .carousel{
   margin: 1em;
   display: flex;
@@ -410,6 +416,8 @@ header a {
 }
 .skole img{
   width: 100%;
+  aspect-ratio: 1.7/1;
+  object-fit: cover;
 }
 .skole h3 {
   padding: 20px;
@@ -424,16 +432,34 @@ header a {
   display: flex;
   flex-direction: column;
 }
-#knap { /*TEKST SKAL VÆRE I CENTER*/
+
+#knap{
   background-color: #F1F1EA;
   color: #768C45;
-  height: 2.5rem;
-  width: 8rem;
-  text-align: center;
-  padding: 7px;
+  padding: 13px 40px;
   border-radius: 9px;
   border: solid #542A2A 1px;
   box-shadow: 1px 3px 5px #8f8f8f;
+  display: inline;
+}
+.bottom-frame{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#knap:hover{
+  cursor: pointer;
+  animation: bottomsColor2 100s ease infinite alternate;
+}
+@keyframes bottomsColor2{
+  0%{
+    background-color: #F1F1EA;
+  }
+  1%{
+    background-color: #dbdbc5;
+  }
+  100%{
+    background-color: #F1F1EA;
+  }
 }
 
 /*Borgernes fortælling*/
@@ -591,8 +617,11 @@ footer {
     display:flex ;
   }
   .skole img {
-    width: 65%;
+    width: 50%;
     height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+
   }
   .tekst {
     margin-top: 5%;
