@@ -656,9 +656,9 @@ footer {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
-  }
+    margin-left: 40px;
+    margin-right: 40px;
+    }
 
   /*udkigspunkt*/
   .udsigt {
@@ -667,8 +667,8 @@ footer {
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1em;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
   }
   
   /*Åsemosen*/
@@ -678,6 +678,6 @@ footer {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1em;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
     }
