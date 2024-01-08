@@ -323,6 +323,7 @@ header a {
 }
 #activities h2 {
   margin: 0;
+  margin-top: 20px;
 }
 .acitivity-carousel {
   height: auto;
@@ -330,9 +331,9 @@ header a {
 
 .activity-cell {
   width: 25%;
-  margin: 5%;
+  margin: 2% 5% 2% 5%;
   background-color: white;
-  padding: 1%;
+  padding: 2%;
   border-radius: 2%;
   text-align: center;
   height: auto;
@@ -352,9 +353,15 @@ header a {
   height: 2.5rem;
   background-color: #768C45;
   color: white;
-  width: 8rem;
+  width: 6rem;
   padding: 10px;
   border-radius: 9px;
+}
+.readmore {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 800px) {
   .activity-cell {
