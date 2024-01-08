@@ -568,7 +568,6 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
-<<<<<<< HEAD
   /*footer*/
   footer {
     display: grid;
@@ -596,14 +595,37 @@ footer {
   }
 }
 
-=======
-  /*Reklamer*/
-  .reklame-frame{
-    width: 100%;
-  }
->>>>>>> 22f79b421df70544f2711bd8a327b7800e8d476f
 @media only screen and (min-width: 1200px) {
   html{
     font-size: 23px;
   }
+  }
+
+  /*Naturområder*/
+
+  /*Verninge mose*/
+  .mose {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+
+  /*udkigspunkt*/
+  .udsigt {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  }
+  
+  /*Åsemosen*/
+  .aasemosen {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
   }
