@@ -534,11 +534,12 @@ footer {
   gap: 20px;
   align-items: baseline;
 }
+
 @media only screen and (min-width: 800px) {
 
   /*header*/
   .fa-bars {
-    display: none; /*DEN VIL IKKE FJERNES*/
+    display: none !important; /*DEN VIL IKKE FJERNES*/
   }
   header ul {
     display: flex;
@@ -571,7 +572,6 @@ footer {
     bottom: -2px;
     left: 0;
   }
-    
   /*intro*/
   .carousel-frame{
     max-width: 45%;
