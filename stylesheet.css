@@ -577,11 +577,12 @@ footer {
   /*Verninge mose*/
   .mose {
     display: grid;
-    width: 100%;
     place-items: center;
+    width: 100%;
     border-radius: 10px;
     margin-bottom: 1em;
-    }
+  }
+
   /*udkigspunkt*/
   .udsigt {
   display: grid;
@@ -590,7 +591,48 @@ footer {
   border-radius: 10px;
   margin-bottom: 1em;
   }
-  
+
+  /*Rute til verninge mose*/
+  .kort {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+  .kort h3 {
+    align-self: start;
+  }
+  .kort img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .icon img {
+    width: 30px;
+    margin: 0 21px;
+    margin-left: 0;
+  }
+  .park {
+    display: flex;
+    align-items: baseline;
+    margin-top: 5%;
+  }
+  .madhus {
+    display: flex;
+    align-items: baseline;
+  }
+  .udkig {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute img {
+    width: 7%;
+    margin-right: 19px;
+  }
+
   /*Åsemosen*/
   .aasemosen {
     display: grid;
@@ -598,7 +640,47 @@ footer {
     width: 100%;
     border-radius: 10px;
     margin-bottom: 1em;
-    }
+  }
+  /*Rute til åsemose*/
+  .kort {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    align-items: center;
+  }
+  .kort h3 {
+    align-self: start;
+  }
+  .kort img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .icon img {
+    width: 30px;
+    margin: 0 21px;
+    margin-left: 0;
+  }
+  .park {
+    display: flex;
+    align-items: baseline;
+    margin-top: 5%;
+  }
+  .shelter {
+    display: flex;
+    align-items: baseline;
+  }
+  .udkig {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute {
+    display: flex;
+    align-items: baseline;
+  }
+  .rute img {
+    width: 7%;
+    margin-right: 19px;
+  }
 
 @media only screen and (min-width: 800px) {
 
@@ -683,6 +765,9 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
+
+
+
   /*footer*/
   footer {
     display: grid;
