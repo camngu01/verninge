@@ -468,35 +468,6 @@ header a {
   border-radius: 50%;
 }
 
- /*Naturområder*/
-
-  /*Verninge mose*/
-  .mose {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
-  /*udkigspunkt*/
-  .udsigt {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  }
-  
-  /*Åsemosen*/
-  .aasemosen {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
 /*Reklamer*/
 .reklame-frame{
   overflow: hidden;
@@ -676,3 +647,31 @@ footer {
   }
   }
 
+  /*Naturområder*/
+
+  /*Verninge mose*/
+  .mose {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+
+  /*udkigspunkt*/
+  .udsigt {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  }
+  
+  /*Åsemosen*/
+  .aasemosen {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
