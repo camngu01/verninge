@@ -357,6 +357,7 @@ header a {
   width: 6rem;
   padding: 10px;
   border-radius: 9px;
+  text-decoration: none;
 }
 .readmore {
   width: 100%;
