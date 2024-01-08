@@ -8,6 +8,7 @@ html{
 body{
   display: grid;
   background-color: #F0F0F2;
+  font-family: 'Karla', sans-serif;
 }
 main{
   display: grid;
@@ -69,28 +70,34 @@ header a {
   margin: 1.5em;
 }
 .bottom{
-  height: 2.5rem;
-  width: 8rem;
   background-color: #768C45;
   color: white;
-  text-align: center;
-  padding: 7px;
+  padding: 13px 40px;
   border-radius: 9px;
   border: solid #542A2A 1px;
   box-shadow: 1px 3px 5px #8f8f8f;
+  display: inline;
+}
+.bottom-frame{
+  text-align: center;
+  padding-bottom: 1rem;
 }
 .bottom:hover{
   cursor: pointer;
-  animation: bottomsColor 1s ease infinite alternate;
+  animation: bottomsColor 100s ease infinite alternate;
 }
 @keyframes bottomsColor{
-  from{
+  0%{
     background-color: #768C45;
   }
-  to{
+  1%{
     background-color: #4d5f26;
   }
+  100%{
+    background-color: #768C45;
+  }
 }
+
 .carousel{
   margin: 1em;
   display: flex;
@@ -318,10 +325,12 @@ header a {
 #activities {
   background-color: #E9E9E9;
   text-align: center;
+
   height: auto;
 }
 #activities h2 {
   margin: 0;
+  margin-top: 20px;
 }
 .acitivity-carousel {
   height: auto;
@@ -329,9 +338,9 @@ header a {
 
 .activity-cell {
   width: 25%;
-  margin: 5%;
+  margin: 2% 5% 2% 5%;
   background-color: white;
-  padding: 1%;
+  padding: 2%;
   border-radius: 2%;
   text-align: center;
   height: auto;
@@ -351,9 +360,16 @@ header a {
   height: 2.5rem;
   background-color: #768C45;
   color: white;
-  width: 8rem;
+  width: 6rem;
   padding: 10px;
   border-radius: 9px;
+  text-decoration: none;
+}
+.readmore {
+  width: 100%;
+  height: auto;
+  margin-top: 2rem;
+  margin-bottom: 10px;
 }
 @media only screen and (max-width: 800px) {
   .activity-cell {
@@ -409,6 +425,8 @@ header a {
 }
 .skole img{
   width: 100%;
+  aspect-ratio: 1.7/1;
+  object-fit: cover;
 }
 .skole h3 {
   padding: 20px;
@@ -423,16 +441,34 @@ header a {
   display: flex;
   flex-direction: column;
 }
-#knap { /*TEKST SKAL VÆRE I CENTER*/
+
+#knap{
   background-color: #F1F1EA;
   color: #768C45;
-  height: 2.5rem;
-  width: 8rem;
-  text-align: center;
-  padding: 7px;
+  padding: 13px 40px;
   border-radius: 9px;
   border: solid #542A2A 1px;
   box-shadow: 1px 3px 5px #8f8f8f;
+  display: inline;
+}
+.bottom-frame{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+#knap:hover{
+  cursor: pointer;
+  animation: bottomsColor2 100s ease infinite alternate;
+}
+@keyframes bottomsColor2{
+  0%{
+    background-color: #F1F1EA;
+  }
+  1%{
+    background-color: #dbdbc5;
+  }
+  100%{
+    background-color: #F1F1EA;
+  }
 }
 
 /*Borgernes fortælling*/
@@ -533,6 +569,37 @@ footer {
   align-items: baseline;
 }
 
+  /*Naturområder*/
+
+  .natur{
+    margin: 0 1rem;
+  }
+  /*Verninge mose*/
+  .mose {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    }
+  /*udkigspunkt*/
+  .udsigt {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  }
+  
+  /*Åsemosen*/
+  .aasemosen {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    }
+
 @media only screen and (min-width: 800px) {
 
   /*header*/
@@ -590,8 +657,11 @@ footer {
     display:flex ;
   }
   .skole img {
-    width: 65%;
+    width: 50%;
     height: auto;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+
   }
   .tekst {
     margin-top: 5%;
@@ -638,120 +708,16 @@ footer {
   .some p, i {
     cursor: pointer;
   }
+  .natur{
+    margin: 0 6rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   html{
     font-size: 23px;
   }
+  .natur{
+    margin: 0 12rem;
   }
-
-  /*Naturområder*/
-
-  /*Verninge mose*/
-  .mose {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-
-  /*udkigspunkt*/
-  .udsigt {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  }
-
-  /*Rute til verninge mose*/
-  .kort {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    align-items: center;
-  }
-  .kort h3 {
-    align-self: start;
-  }
-  .kort img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .icon img {
-    width: 30px;
-    margin: 0 21px;
-    margin-left: 0;
-  }
-  .park {
-    display: flex;
-    align-items: baseline;
-    margin-top: 5%;
-  }
-  .madhus {
-    display: flex;
-    align-items: baseline;
-  }
-  .udkig {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute img {
-    width: 7%;
-    margin-right: 19px;
-  }
-  
-  /*Åsemosen*/
-  .aasemosen {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-  }
-  /*Rute til åsemose*/
-  .kort {
-    display: flex;
-    flex-direction: column;
-    margin: 20px;
-    align-items: center;
-  }
-  .kort h3 {
-    align-self: start;
-  }
-  .kort img {
-    width: 100%;
-    border-radius: 10px;
-  }
-  .icon img {
-    width: 30px;
-    margin: 0 21px;
-    margin-left: 0;
-  }
-  .park {
-    display: flex;
-    align-items: baseline;
-    margin-top: 5%;
-  }
-  .shelter {
-    display: flex;
-    align-items: baseline;
-  }
-  .udkig {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute {
-    display: flex;
-    align-items: baseline;
-  }
-  .rute img {
-    width: 7%;
-    margin-right: 19px;
   }
