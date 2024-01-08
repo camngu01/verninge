@@ -314,6 +314,54 @@ header a {
   }
 }
 
+/* Aktiviteter */
+#activities {
+  background-color: #E9E9E9;
+  text-align: center;
+
+  height: auto;
+}
+#activities h2 {
+  margin: 0;
+}
+.acitivity-carousel {
+  height: auto;
+}
+
+.activity-cell {
+  width: 25%;
+  margin: 5%;
+  background-color: white;
+  padding: 1%;
+  border-radius: 2%;
+  text-align: center;
+  height: auto;
+}
+.activity-cell img {
+  width: 80%;
+  border-radius: 5%;
+}
+.activity-cell p {
+  text-align: center;
+  color: #542A2A;
+  margin: 10px;
+  line-height: 1;
+}
+
+.activity-cell a {
+  height: 2.5rem;
+  background-color: #768C45;
+  color: white;
+  width: 8rem;
+  padding: 10px;
+  border-radius: 9px;
+}
+@media only screen and (max-width: 800px) {
+  .activity-cell {
+    width: 80%;
+  }
+}
+
 /*Foreninger*/ 
 .foreninger {
   margin: 1.5em;
@@ -485,10 +533,12 @@ footer {
   gap: 20px;
   align-items: baseline;
 }
-@media only screen and (min-width: 950px) {
+
+@media only screen and (min-width: 800px) {
+
   /*header*/
   .fa-bars {
-    display: none; /*VIL IKKE VIRKE*/
+    display: none !important; /*DEN VIL IKKE FJERNES*/
   }
   header ul {
     display: flex;
@@ -519,7 +569,6 @@ footer {
     bottom: -2px;
     left: 0;
   }
-    
   /*intro*/
   .carousel-frame{
     max-width: 45%;
