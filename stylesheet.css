@@ -365,41 +365,58 @@ header a {
 .foreninger {
   margin: 1.5em;
 }
-.gym {
+.foreninger h2{
+  text-align: center;
+}
+.gym-frame{
   display: grid;
+}
+.gym-frame img {
   place-items: center;
   width: 100%;
   border-radius: 10px;
   margin-bottom: 1em;
-  
 }
-
-.if {
+.if-frame{
   display: grid;
+}
+.if-frame img {
   place-items: center;
   width: 100%;
   border-radius: 10px; 
   margin-bottom: 1em;
 }
-.gymnastik {
+.gymnastik, .facebook-if, .hjemmeside-if {
   color: #A8B48E;
   text-decoration: none; 
   line-height: 1.7rem;
-  margin: 0 17px 20px 17px;
 }
 
-.facebook-if {
-  color: #A8B48E;
-  text-decoration: none; 
-  line-height: 1.7rem;
-  margin: 0 17px 20px 17px;
-}
-
-.hjemmeside-if {
-  color: #A8B48E;
-  text-decoration: none; 
-  line-height: 1.7rem;
-  margin: 0 17px 20px 17px;
+@media only screen and (min-width: 800px) {
+  .gym-frame{
+    display: flex;
+    padding: 2rem;
+  }
+  .if-frame{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .gym-frame img{
+    max-width: 60%;
+    object-fit: cover;
+    aspect-ratio: 1.5/1;
+  }
+  .if-frame img{
+    max-width: 60%;
+    object-fit: cover;
+    aspect-ratio: 1.5/1;
+  }
+  .gym-tekst {
+    padding-left: 2rem;
+  }
+  .if-tekst {
+    padding-right: 2rem;
+  }
 }
 
 /*børneinstitution*/
