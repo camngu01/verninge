@@ -49,7 +49,7 @@ header {
   z-index: 1;
 }
 header img {
-  height: 4rem;
+  height: 4.5rem;
 }
 .fa-bars {
   color: white;
@@ -428,12 +428,12 @@ header a {
   background-color: #F1F1EA;
   color: #768C45;
   height: 2.5rem;
-  width: 9rem;
+  width: 8rem;
   text-align: center;
+  padding: 7px;
   border-radius: 9px;
   border: solid #542A2A 1px;
   box-shadow: 1px 3px 5px #8f8f8f;
-  align-self: center;
 }
 
 /*Borgernes fortælling*/
@@ -452,7 +452,6 @@ header a {
   margin-left: 5%;
 }
 .rasmus h4 {
-  text-align: center;
   padding: 10px 0;
 }
 .rasmus p {
@@ -551,11 +550,9 @@ footer {
     display: flex;
     padding: 0;
   }
-  
   nav li {
     margin-right: 20px;
   }
-  
   nav a {
     text-decoration: none;
     color: #fff;
@@ -586,7 +583,7 @@ footer {
     position: absolute;
     right: 1px;
     top: 14%;
-    width: 50%;
+    width: 45%;
   }
 
   /*børneinstitution*/
@@ -617,12 +614,64 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
-  /*Reklamer*/
-  .reklame-frame{
-    width: 100%;
+  /*footer*/
+  footer {
+    display: grid;
+    flex-direction: column;
+    grid-template-columns: 1fr 20% 1fr;
   }
+  footer h4 {
+    font-size: 1.5rem;
+  }
+  .genvej {
+    margin: 20px 60px;
+  }
+  .genvej ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    cursor: pointer;
+  }
+  .some {
+    grid-column: 4;
+    margin: 20px 80px;
+  }
+  .some p, i {
+    cursor: pointer;
+  }
+}
+
 @media only screen and (min-width: 1200px) {
   html{
     font-size: 23px;
   }
+  }
+
+  /*Naturområder*/
+
+  /*Verninge mose*/
+  .mose {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+  }
+
+  /*udkigspunkt*/
+  .udsigt {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  }
+  
+  /*Åsemosen*/
+  .aasemosen {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
   }
