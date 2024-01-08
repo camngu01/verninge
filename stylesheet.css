@@ -567,6 +567,37 @@ footer {
   align-items: baseline;
 }
 
+  /*Naturområder*/
+
+  .natur{
+    margin: 0 1rem;
+  }
+  /*Verninge mose*/
+  .mose {
+    display: grid;
+    width: 100%;
+    place-items: center;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    }
+  /*udkigspunkt*/
+  .udsigt {
+  display: grid;
+  place-items: center;
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 1em;
+  }
+  
+  /*Åsemosen*/
+  .aasemosen {
+    display: grid;
+    place-items: center;
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1em;
+    }
+
 @media only screen and (min-width: 800px) {
 
   /*header*/
@@ -675,45 +706,16 @@ footer {
   .some p, i {
     cursor: pointer;
   }
+  .natur{
+    margin: 0 6rem;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
   html{
     font-size: 23px;
   }
+  .natur{
+    margin: 0 12rem;
   }
-
-  /*Naturområder*/
-
-  /*Verninge mose*/
-  .mose {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    }
-
-  /*udkigspunkt*/
-  .udsigt {
-  display: grid;
-  place-items: center;
-  width: 100%;
-  border-radius: 10px;
-  margin-bottom: 1em;
-  margin-left: 40px;
-  margin-right: 40px;
   }
-  
-  /*Åsemosen*/
-  .aasemosen {
-    display: grid;
-    place-items: center;
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 1em;
-    margin-left: 40px;
-    margin-right: 40px;
-    }
