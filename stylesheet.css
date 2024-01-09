@@ -906,15 +906,16 @@ footer {
   /*naturåmråder*/
 
   /*rute til verninge mose*/
-  .kort h3 {
-    align-self: center;
-
-  }
   .kort img {
-    width: 50%;
+    width: 40rem;
   }
   .icon img {
     width: 30px;
+  }
+  .icon {
+    align-self: flex-start;
+    padding-top: 20px;
+
   }
 
   /*footer*/
