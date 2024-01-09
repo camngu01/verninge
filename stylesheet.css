@@ -823,7 +823,7 @@ footer {
 
   /*header*/
   .fa-bars {
-    display: none !important; /*DEN VIL IKKE FJERNES*/
+    display: none !important;
   }
   header ul {
     display: flex;
