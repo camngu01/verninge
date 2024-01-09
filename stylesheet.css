@@ -363,6 +363,9 @@ header a {
   .activity-cell {
     width: 80%;
   }
+  .borger-cell {
+    width: 80% !important;
+  }
 }
 
 /*Foreninger*/ 
@@ -505,6 +508,14 @@ header a {
 .gitte img {
   width: 10rem;
   border-radius: 50%;
+}
+.borger-cell {
+  width: 30%;
+  text-align: center;
+  margin: 2%;
+}
+.borger-carousel {
+  width: 100%;
 }
 
 /*Reklamer*/
@@ -801,7 +812,7 @@ footer {
 
   /*header*/
   .fa-bars {
-    display: none !important; /*DEN VIL IKKE FJERNES*/
+    display: none !important; 
   }
   header ul {
     display: flex;
@@ -881,6 +892,7 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
+  
   /*rute til verninge mose*/
   .kort h3 {
     align-self: center;
