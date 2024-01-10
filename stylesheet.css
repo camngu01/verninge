@@ -435,7 +435,7 @@ header a {
 
 /*børneinstitution*/
 .skole {
-  background-color: #a8b48e;
+  background-color: #6B7259;
   color: white;
 }
 .skole img{
@@ -523,6 +523,13 @@ header a {
 }
 .borger-carousel {
   width: 100%;
+}
+
+@media only screen and (max-width: 800px) {
+  .rasmus p {
+    margin: 0;
+  }
+
 }
 
 /*Reklamer*/
