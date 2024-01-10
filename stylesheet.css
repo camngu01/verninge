@@ -126,7 +126,7 @@ header a {
   display: flex;
   gap: 4px;
   justify-content: center;
-
+  height: 12px;
 }
 .dot1{
   animation: chanceColor1 30s linear infinite;
