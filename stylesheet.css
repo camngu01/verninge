@@ -328,6 +328,7 @@ header a {
 .activity-cell img {
   width: 80%;
   border-radius: 5%;
+  aspect-ratio: 1.4 / 1;
 }
 .activity-cell p {
   text-align: center;
