@@ -21,13 +21,11 @@ h1{
 }
 
 h2{
-  font-family: 'Josefin Slab', serif;
   font-size: 1.6rem;
   margin: 40px 0px 20px 0px;
 }
 
 h3{
-  font-family: 'Josefin Slab', serif;
   font-size: 1.4rem;
   margin: 40px 0px 20px 0px;
 }
@@ -365,6 +363,14 @@ header a {
   }
   .borger-cell {
     width: 80% !important;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .activity-cell {
+    width: 50%;
+  }
+  .borger-cell {
+    width: 50% !important;
   }
 }
 
