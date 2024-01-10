@@ -40,7 +40,7 @@ p{
 
 /*Header*/
 header {
-  background-color: #A8B48E;
+  background-color: #6B7259;
   height: 120px;
   display: flex;
   justify-content: space-between;
@@ -101,11 +101,6 @@ header a {
   display: inline;
 }
 
-@media only screen and (max-width: 800px) {
-  .bottom{
-    padding: 13px 25px;
-  } 
-}
 
 .bottom-frame{
   text-align: center;
@@ -413,32 +408,6 @@ header a {
   line-height: 1.7rem;
 }
 
-@media only screen and (min-width: 800px) {
-  .gym-frame{
-    display: flex;
-    padding: 2rem;
-  }
-  .if-frame{
-    display: flex;
-    flex-direction: row-reverse;
-  }
-  .gym-frame img{
-    max-width: 60%;
-    object-fit: cover;
-    aspect-ratio: 1.5/1;
-  }
-  .if-frame img{
-    max-width: 60%;
-    object-fit: cover;
-    aspect-ratio: 1.5/1;
-  }
-  .gym-tekst {
-    padding-left: 2rem;
-  }
-  .if-tekst {
-    padding-right: 2rem;
-  }
-}
 
 /*børneinstitution*/
 .skole {
@@ -466,8 +435,8 @@ header a {
 
 #knap{
   background-color: #F1F1EA;
-  color: #768C45;
-  padding: 13px 40px;
+  color: #6B7259;
+  padding: 13px 50px;
   border-radius: 9px;
   box-shadow: 1px 3px 5px #8f8f8f;
   display: inline;
@@ -532,13 +501,6 @@ header a {
   width: 100%;
 }
 
-@media only screen and (max-width: 800px) {
-  .rasmus p {
-    margin: 0;
-  }
-
-}
-
 /*Reklamer*/
 .reklame-frame{
   overflow: hidden;
@@ -548,7 +510,7 @@ header a {
   animation: reklame 30s infinite linear;
 }
 .reklame-slide{
-  min-width: 25%;
+  min-width: 55%;
   margin: 0 0.5%;
 }
 .reklame-slide img{
@@ -678,7 +640,7 @@ header a {
 
 /*footer*/
 footer {
-  background-color: #a8b48e;
+  background-color: #6B7259;
   color: white;
   display: grid;
   grid-column: 1fr 1fr 1fr;
@@ -829,6 +791,7 @@ footer {
     margin-right: 19px;
   }
 
+
 @media only screen and (min-width: 800px) {
 
   /*header*/
@@ -881,6 +844,35 @@ footer {
     top: 11%;
     width: 45%;
   }
+  .bottom{
+    padding: 13px 25px;
+  } 
+
+  /*Foreningerne*/
+  .gym-frame{
+    display: flex;
+    padding: 2rem;
+  }
+  .if-frame{
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .gym-frame img{
+    max-width: 60%;
+    object-fit: cover;
+    aspect-ratio: 1.5/1;
+  }
+  .if-frame img{
+    max-width: 60%;
+    object-fit: cover;
+    aspect-ratio: 1.5/1;
+  }
+  .gym-tekst {
+    padding-left: 2rem;
+  }
+  .if-tekst {
+    padding-right: 2rem;
+  }
 
   /*børneinstitution*/
   .skole {
@@ -913,6 +905,13 @@ footer {
     flex-direction: row;
     margin: 5%;
   }
+  .rasmus p {
+    margin: 0;
+  }
+  /*Reklamer*/
+  .reklame-slide{
+    min-width: 25%;
+  }
   
   /*rute til verninge mose*/
   .kort h3 {
@@ -926,6 +925,7 @@ footer {
   .icon img {
     width: 30px;
   }
+  
 
   /*footer*/
   footer {
@@ -981,5 +981,10 @@ footer {
   .kort-mose img{
     aspect-ratio: 1.6/1;
     object-fit: scale-down;
+  }
+}
+@media only screen and (min-width: 1400px) {
+  .carousel-slide img{
+    aspect-ratio: 1.7/1;
   }
 }
