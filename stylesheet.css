@@ -126,34 +126,29 @@ header a {
 .carousel{
   margin: 1em;
   display: flex;
-  gap: 4px;
+  gap: 6px;
   justify-content: center;
   height: 12px;
 }
 .dot1{
   animation: chanceColor1 30s linear infinite;
   border-radius: 50px;
-  border: solid black 0.5px;
 }
 .dot2{
   animation: chanceColor2 30s linear infinite;
   border-radius: 50px;
-  border: solid black 0.5px;
 }
 .dot3{
   animation: chanceColor3 30s linear infinite;
   border-radius: 50px;
-  border: solid black 0.5px;
 }
 .dot4{
   animation: chanceColor4 30s linear infinite;
   border-radius: 50px;
-  border: solid black 0.5px;
 }
 .dot5{
   animation: chanceColor5 30s linear infinite;
   border-radius: 50px;
-  border: solid black 0.5px;
 }
 @keyframes chanceColor1{
   0%{
@@ -162,17 +157,17 @@ header a {
     height: 12px;
   }
   20%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 10px;
     height: 10px;
   }
   40%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 8px;
     height: 8px;
   }
   60%, 80%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 6px;
     height: 6px;
   }
@@ -184,7 +179,7 @@ header a {
 }
 @keyframes chanceColor2{
   0%, 40%, 100%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 10px;
     height: 10px;
   }
@@ -194,24 +189,24 @@ header a {
     height: 12px;
   }
   60%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 8px;
     height: 8px;
   }
   80%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 6px;
     height: 6px;
   }
 }
 @keyframes chanceColor3{
   0%, 80%, 100%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 8px;
     height: 8px;
   }
   20%, 60%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 10px;
     height: 10px;
   }
@@ -223,17 +218,17 @@ header a {
 }
 @keyframes chanceColor4{
   0%, 100%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 6px;
     height: 6px;
   }
   20%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 8px;
     height: 8px;
   }
   40%, 80%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 10px;
     height: 10px;
   }
@@ -245,17 +240,17 @@ header a {
 }
 @keyframes chanceColor5{
   0%, 20%, 100%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 6px;
     height: 6px;
   }
   40%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 8px;
     height: 8px;
   }
   60%{
-    background-color: transparent;
+    background-color: rgb(170, 170, 170);
     width: 10px;
     height: 10px;
   }
